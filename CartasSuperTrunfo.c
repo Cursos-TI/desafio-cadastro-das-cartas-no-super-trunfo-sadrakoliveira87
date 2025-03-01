@@ -59,11 +59,6 @@ int main() {
 		scanf("%d", &pontos);
 		
 		
-		
-		
-	
-		
-
 
 	return 0;
 }
