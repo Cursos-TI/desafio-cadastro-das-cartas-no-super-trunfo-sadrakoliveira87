@@ -13,10 +13,10 @@ int main() {
 		printf("carta 1\n");
 		
 		printf ("Estado:", estado);
-		scanf("%s", &estado);
+		scanf("%s", &estado); //Não utilizar & em string
 		
 		printf("codigo da carta:", codigo);
-		scanf("%s", &codigo);
+		scanf("%s", &codigo);//Não utilizar & em string
 		
 		printf("nome da cidade:", nome);
 		scanf("\n%20[^\n]s", nome);
@@ -38,10 +38,10 @@ int main() {
 		printf("carta 2\n");
 		
 		printf ("Estado:", estado);
-		scanf("%s", &estado);
+		scanf("%s", &estado);//Não utilizar & em string
 		
 		printf("codigo da carta:", codigo);
-		scanf("%s", &codigo);
+		scanf("%s", &codigo);//Não utilizar & em string
 		
 		printf("nome da cidade:", nome);
 		scanf("\n%20[^\n]s", nome);
