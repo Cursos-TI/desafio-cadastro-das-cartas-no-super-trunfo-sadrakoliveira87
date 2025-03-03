@@ -13,7 +13,7 @@ int main() {
 		printf("carta 1\n");
 		
 		printf ("Estado:", estado);
-		scanf("%s", &estado); //Não utilizar & em string
+		scanf("%s", &estado); //Comentário professor Não utilizar & em string
 		
 		printf("codigo da carta:", codigo);
 		scanf("%s", &codigo);//Não utilizar & em string
